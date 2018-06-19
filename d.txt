@@ -1,0 +1,222 @@
+23:11:52.802009 == Info: About to connect() to www.google.com port 80 (#0)
+23:11:52.802186 == Info:   Trying 172.217.8.164... 23:11:52.805277 == Info: connected
+23:11:52.805315 == Info: Connected to www.google.com (172.217.8.164) port 80 (#0)
+23:11:52.805374 => Send header, 177 bytes (0xb1)
+0000: GET / HTTP/1.1
+0010: User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7
+0050:  NSS/3.19.1 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+008c: Host: www.google.com
+00a2: Accept: */*
+00af: 
+23:11:52.846992 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+23:11:52.847139 <= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 10 Nov 2017 05:11:52 GMT
+23:11:52.847166 <= Recv header, 13 bytes (0xd)
+0000: Expires: -1
+23:11:52.847183 <= Recv header, 35 bytes (0x23)
+0000: Cache-Control: private, max-age=0
+23:11:52.847205 <= Recv header, 45 bytes (0x2d)
+0000: Content-Type: text/html; charset=ISO-8859-1
+23:11:52.847224 <= Recv header, 69 bytes (0x45)
+0000: P3P: CP="This is not a P3P policy! See g.co/p3phelp for more inf
+0040: o."
+23:11:52.847245 <= Recv header, 13 bytes (0xd)
+0000: Server: gws
+23:11:52.847260 <= Recv header, 33 bytes (0x21)
+0000: X-XSS-Protection: 1; mode=block
+23:11:52.847277 <= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+23:11:52.847310 <= Recv header, 101 bytes (0x65)
+0000: Set-Cookie: 1P_JAR=2017-11-10-05; expires=Sun, 10-Dec-2017 05:11
+0040: :52 GMT; path=/; domain=.google.com
+23:11:52.847364 <= Recv header, 227 bytes (0xe3)
+0000: Set-Cookie: NID=116=PbVbHeE0ezm8vPm779oKTtcX60bVJg6dgVP-gZrMxTcf
+0040: ylFDiN-e9I-pxhCly1zC6ol0NyYe02Aa6r_LmfaLOK4cLZN013wwQ60pcC05DwEZ
+0080: ER7ohKw-4QTAZeD_VUOs; expires=Sat, 12-May-2018 05:11:52 GMT; pat
+00c0: h=/; domain=.google.com; HttpOnly
+23:11:52.847411 <= Recv header, 21 bytes (0x15)
+0000: Accept-Ranges: none
+23:11:52.847428 <= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+23:11:52.847457 <= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+23:11:52.847480 <= Recv header, 2 bytes (0x2)
+0000: 
+23:11:52.847494 <= Recv data, 10938 bytes (0x2aba)
+0000: 2aad
+0006: <!doctype html><html itemscope="" itemtype="http://schema.org/We
+0046: bPage" lang="en"><head><meta content="Search the world's informa
+0086: tion, including webpages, images, videos and more. Google has ma
+00c6: ny special features to help you find exactly what you're looking
+0106:  for." name="description"><meta content="noodp" name="robots"><m
+0146: eta content="text/html; charset=UTF-8" http-equiv="Content-Type"
+0186: ><meta content="/images/branding/googleg/1x/googleg_standard_col
+01c6: or_128dp.png" itemprop="image"><title>Google</title><script>(fun
+0206: ction(){window.google={kEI:'GDUFWpaKLoupjwS3uJKoBg',kEXPI:'13542
+0246: 76,1354442,1354723,1354916,1355217,1355736,1355867,1356032,13563
+0286: 69,3700252,3700429,3700440,3700489,4029815,4031109,4043492,40458
+02c6: 40,4048347,4076999,4078430,4081039,4081165,4095910,4097150,40971
+0306: 95,4098721,4098728,4098752,4100109,4100116,4102237,4102827,41034
+0346: 75,4103845,4103861,4104258,4104414,4107914,4109316,4109489,41132
+0386: 17,4115697,4116349,4116724,4116731,4116926,4116927,4116935,41173
+03c6: 28,4117979,4118227,4118798,4119032,4119034,4119036,4120415,41206
+0406: 60,4121035,4121175,4121518,4122381,4122707,4123588,4124091,41247
+0446: 26,4124850,4125837,4126205,4127444,4127473,4127744,4127775,41285
+0486: 86,4128622,4128995,4129520,4129555,4129633,4130060,4130560,41307
+04c6: 83,4131074,4131247,4131642,4131834,4132956,4133090,4133114,41331
+0506: 25,4133245,4133415,4133509,4134063,4134265,4134711,4134919,41349
+0546: 51,4135088,4135249,4135364,4135576,4135747,4135854,4135934,41359
+0586: 54,4136137,4136220,4136235,4136459,4136549,4137110,4137129,41374
+05c6: 67,4137469,4137597,4137604,4137648,4138341,4138344,4138579,41394
+0606: 36,4140031,4140116,4140369,4140374,4140696,4140792,4140987,41411
+0646: 26,4141143,4141260,4141351,4141393,4141436,4141846,10200083,1020
+0686: 0096,10201956,10202444,10202524,19000288,19000423,19000427,19001
+06c6: 999,19002245,19002249,19002252,19002257,19002366,19002548,190026
+0706: 64,19002671,19002880,19003319,19003321,19003323,19003407,1900340
+0746: 8,19003409,19004006,19004102,19004105,19004108,19004110,19004112
+0786: ,19004127,19004129,19004130,19004134,41317155',authuser:0,kscs:'
+07c6: c9c918f0_GDUFWpaKLoupjwS3uJKoBg',u:'c9c918f0',kGL:'US'};google.k
+0806: HL='en';})();(function(){google.lc=[];google.li=0;google.getEI=f
+0846: unction(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("ei
+0886: d")));)a=a.parentNode;return b||google.kEI};google.getLEI=functi
+08c6: on(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("le
+0906: id")));)a=a.parentNode;return b};google.https=function(){return"
+0946: https:"==window.location.protocol};google.ml=function(){return n
+0986: ull};google.wl=function(a,b){try{google.ml(Error(a),!1,b)}catch(
+09c6: d){}};google.time=function(){return(new Date).getTime()};google.
+0a06: log=function(a,b,d,c,g){if(a=google.logUrl(a,b,d,c,g)){b=new Ima
+0a46: ge;var e=google.lc,f=google.li;e[f]=b;b.onerror=b.onload=b.onabo
+0a86: rt=function(){delete e[f]};google.vel&&google.vel.lu&&google.vel
+0ac6: .lu(a);b.src=a;google.li=f+1}};google.logUrl=function(a,b,d,c,g)
+0b06: {var e="",f=google.ls||"";d||-1!=b.search("&ei=")||(e="&ei="+goo
+0b46: gle.getEI(c),-1==b.search("&lei=")&&(c=google.getLEI(c))&&(e+="&
+0b86: lei="+c));c="";!d&&google.cshid&&-1==b.search("&cshid=")&&(c="&c
+0bc6: shid="+google.cshid);a=d||"/"+(g||"gen_204")+"?atyp=i&ct="+a+"&c
+0c06: ad="+b+e+f+"&zx="+google.time()+c;/^http:/i.test(a)&&google.http
+0c46: s()&&(google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a};})
+0c86: .call(this);(function(){google.y={};google.x=function(a,b){if(a)
+0cc6: var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c
+0d06: ]=[a,b];return!1};google.lm=[];google.plm=function(a){google.lm.
+0d46: push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c
+0d86: ){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google
+0dc6: .lq.push([a,b])};}).call(this);google.f={};var a=window.location
+0e06: ,b=a.href.indexOf("#");if(0<=b){var c=a.href.substring(b+1);/(^|
+0e46: &)q=/.test(c)&&-1==c.indexOf("#")&&a.replace("/search?"+c.replac
+0e86: e(/(^|&)fp=[^&]*/g,"")+"&cad=h")};</script><style>#gbar,#guser{f
+0ec6: ont-size:13px;padding-top:1px !important;}#gbar{height:22px}#gus
+0f06: er{padding-bottom:7px !important;text-align:right}.gbh,.gbd{bord
+0f46: er-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:ab
+0f86: solute;top:24px;width:100%}@media all{.gb1{height:22px;margin-ri
+0fc6: ght:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-d
+1006: ecoration:underline !important}a.gb1,a.gb4{color:#00c !important
+1046: }.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !import
+1086: ant}.</style><style>body,td,a,p,.h{font-family:arial,sans-serif}
+10c6: body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-h
+1106: eight:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h
+1146: {color:#36c}.q{color:#00c}.ts td{padding:0}.ts{border-collapse:c
+1186: ollapse}em{font-weight:bold;font-style:normal}.lst{height:25px;w
+11c6: idth:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px
+1206:  arial,sans-serif}.ds{display:inline-box;display:inline-block;ma
+1246: rgin:3px 0 4px;margin-left:4px}input{font-family:inherit}a.gb1,a
+1286: .gb2,a.gb3,a.gb4{color:#11c !important}body{background:#fff;colo
+12c6: r:black}a{color:#11c;text-decoration:none}a:hover,a:active{text-
+1306: decoration:underline}.fl a{color:#36c}a:visited{color:#551a8b}a.
+1346: gb1,a.gb4{text-decoration:underline}a.gb3:hover{text-decoration:
+1386: none}#ghead a.gb2:hover{color:#fff !important}.sblc{padding-top:
+13c6: 5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-siz
+1406: e:11px}.lsbb{background:#eee;border:solid 1px;border-color:#ccc 
+1446: #999 #999 #ccc;height:30px}.lsbb{display:block}.ftl,#fll a{displ
+1486: ay:inline-block;margin:0 12px}.lsb{background:url(/images/nav_lo
+14c6: go229.png) 0 -261px repeat-x;border:none;color:#000;cursor:point
+1506: er;height:30px;margin:0;outline:0;font:15px arial,sans-serif;ver
+1546: tical-align:top}.lsb:active{background:#ccc}.lst:focus{outline:n
+1586: one}</style><script></script><link href="/images/branding/produc
+15c6: t/ico/googleg_lodp.ico" rel="shortcut icon"></head><body bgcolor
+1606: ="#fff"><script>(function(){var src='/images/nav_logo229.png';va
+1646: r iesg=false;document.body.onload = function(){window.n && windo
+1686: w.n();if (document.images){new Image().src=src;}.if (!iesg){docu
+16c6: ment.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focu
+1706: s();}.}.})();</script><div id="mngb"> <div id=gbar><nobr><b clas
+1746: s=gb1>Search</b> <a class=gb1 href="http://www.google.com/imghp?
+1786: hl=en&tab=wi">Images</a> <a class=gb1 href="http://maps.google.c
+17c6: om/maps?hl=en&tab=wl">Maps</a> <a class=gb1 href="https://play.g
+1806: oogle.com/?hl=en&tab=w8">Play</a> <a class=gb1 href="http://www.
+1846: youtube.com/?gl=US&tab=w1">YouTube</a> <a class=gb1 href="http:/
+1886: /news.google.com/nwshp?hl=en&tab=wn">News</a> <a class=gb1 href=
+18c6: "https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 hr
+1906: ef="https://drive.google.com/?tab=wo">Drive</a> <a class=gb1 sty
+1946: le="text-decoration:none" href="https://www.google.com/intl/en/o
+1986: ptions/"><u>More</u> &raquo;</a></nobr></div><div id=guser width
+19c6: =100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf
+1a06: ></span><span id=gbe></span><a href="http://www.google.com/histo
+1a46: ry/optout?hl=en" class=gb4>Web History</a> | <a  href="/preferen
+1a86: ces?hl=en" class=gb4>Settings</a> | <a target=_top id=gb_70 href
+1ac6: ="https://accounts.google.com/ServiceLogin?hl=en&passive=true&co
+1b06: ntinue=http://www.google.com/" class=gb4>Sign in</a></nobr></div
+1b46: ><div class=gbh style=left:0></div><div class=gbh style=right:0>
+1b86: </div> </div><center><br clear="all" id="lgpd"><div id="lga"><im
+1bc6: g alt="Google" height="92" src="/images/branding/googlelogo/1x/g
+1c06: ooglelogo_white_background_color_272x92dp.png" style="padding:28
+1c46: px 0 14px" width="272" id="hplogo" onload="window.lol&&lol()"><b
+1c86: r><br></div><form action="/search" name="f"><table cellpadding="
+1cc6: 0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><
+1d06: td align="center" nowrap=""><input name="ie" value="ISO-8859-1" 
+1d46: type="hidden"><input value="en" name="hl" type="hidden"><input n
+1d86: ame="source" type="hidden" value="hp"><input name="biw" type="hi
+1dc6: dden"><input name="bih" type="hidden"><div class="ds" style="hei
+1e06: ght:32px;margin:4px 0"><input style="color:#000;margin:0;padding
+1e46: :5px 8px 0 6px;vertical-align:top" autocomplete="off" class="lst
+1e86: " value="" title="Google Search" maxlength="2048" name="q" size=
+1ec6: "57"></div><br style="line-height:0"><span class="ds"><span clas
+1f06: s="lsbb"><input class="lsb" value="Google Search" name="btnG" ty
+1f46: pe="submit"></span></span><span class="ds"><span class="lsbb"><i
+1f86: nput class="lsb" value="I'm Feeling Lucky" name="btnI" onclick="
+1fc6: if(this.form.q.value)this.checked=1; else top.location='/doodles
+2006: /'" type="submit"></span></span></td><td class="fl sblc" align="
+2046: left" nowrap="" width="25%"><a href="/advanced_search?hl=en&amp;
+2086: authuser=0">Advanced search</a><a href="/language_tools?hl=en&am
+20c6: p;authuser=0">Language tools</a></td></tr></table><input id="gbv
+2106: " name="gbv" type="hidden" value="1"></form><div id="gac_scont">
+2146: </div><div style="font-size:83%;min-height:3.5em"><br></div><spa
+2186: n id="footer"><div style="font-size:10pt"><div style="margin:19p
+21c6: x auto;text-align:center" id="fll"><a href="/intl/en/ads/">Adver
+2206: tising.Programs</a><a href="/services/">Business Solutions</a><a
+2246:  href="https://plus.google.com/116899029375914044550" rel="publi
+2286: sher">+Google</a><a href="/intl/en/about.html">About Google</a><
+22c6: /div></div><p style="color:#767676;font-size:8pt">&copy; 2017 - 
+2306: <a href="/intl/en/policies/privacy/">Privacy</a> - <a href="/int
+2346: l/en/policies/terms/">Terms</a></p></span></center><script>(func
+2386: tion(){window.google.cdo={height:0,width:0};(function(){var a=wi
+23c6: ndow.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.doc
+2406: ument,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.
+2446: clientWidth;b=d.clientHeight}a&&b&&(a!=google.cdo.width||b!=goog
+2486: le.cdo.height)&&google.log("","","/client_204?&atyp=i&biw="+a+"&
+24c6: bih="+b+"&ei="+google.kEI);}).call(this);})();</script><div id="
+2506: xjsd"></div><div id="xjsi"><script>(function(){function c(b){win
+2546: dow.setTimeout(function(){var a=document.createElement("script")
+2586: ;a.src=b;google.timers&&google.timers.load.t&&google.tick("load"
+25c6: ,{gen204:"xjsls",clearcut:31});document.getElementById("xjsd").a
+2606: ppendChild(a)},0)}google.dljp=function(b,a){google.xjsu=b;c(a)};
+2646: google.dlj=c;}).call(this);(function(){var r=[];google.plm(r);})
+2686: ();if(!google.xjs){window._=window._||{};window._DumpException=w
+26c6: indow._._DumpException=function(e){throw e};google.dljp('/xjs/_/
+2706: js/k\x3dxjs.hp.en_US.wWgdMrvdIAs.O/m\x3dsb_he,d/am\x3dABg/rt\x3d
+2746: j/d\x3d1/t\x3dzcms/rs\x3dACT90oGgwVhtcp-aFw7e6z77WMatRaP9Bg','/x
+2786: js/_/js/k\x3dxjs.hp.en_US.wWgdMrvdIAs.O/m\x3dsb_he,d/am\x3dABg/r
+27c6: t\x3dj/d\x3d1/t\x3dzcms/rs\x3dACT90oGgwVhtcp-aFw7e6z77WMatRaP9Bg
+2806: ');google.xjs=1;}google.pmc={"sb_he":{"agen":false,"cgen":false,
+2846: "client":"heirloom-hp","dh":true,"dhqt":true,"ds":"","fl":true,"
+2886: host":"google.com","isbh":28,"jam":0,"jsonp":true,"msgs":{"cibl"
+28c6: :"Clear Search","dym":"Did you mean:","lcky":"I\u0026#39;m Feeli
+2906: ng Lucky","lml":"Learn more","oskt":"Input tools","psrc":"This s
+2946: earch was removed from your \u003Ca href=\"/history\"\u003EWeb H
+2986: istory\u003C/a\u003E","psrl":"Remove","sbit":"Search by image","
+29c6: srch":"Google Search"},"nds":true,"ovr":{},"pq":"","refpd":true,
+2a06: "rfs":[],"sbpl":24,"sbpr":24,"scd":10,"sce":5,"stok":"zba-9Xgi1M
+2a46: sCyu6SiTJyLb_WTvw"},"d":{},"aWiv7g":{},"YFCs/g":{}};google.x(nul
+2a86: l,function(){});</script></div></body></html>
+2ab5: 0
+2ab8: 
+23:11:52.849578 == Info: Connection #0 to host www.google.com left intact
+23:11:52.849610 == Info: Closing connection #0
