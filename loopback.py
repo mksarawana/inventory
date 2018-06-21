@@ -45,8 +45,8 @@ workbook.save(new_folder_name+'/Result.xls')
 
 ###################### core login ###############################
 
-username = 'admin'
-pswd = 'DC21nstall'
+username = ''
+pswd = ''
 ssh=paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 ssh.connect("100.80.255.217", port=22, username=username,password=pswd,look_for_keys=False, allow_agent=False)
