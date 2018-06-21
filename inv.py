@@ -46,8 +46,8 @@ filee = sys.argv[1]
 # print(filee
 # print(username)
 
-login_username = 'admin'
-pswd = 'DC21nstall'
+login_username = ''
+pswd = ''
 #result_path = '/var/www/html/test_tart/failovertests/logs/'+user
 
 #new_folder_name = "/var/www/html/failovertests/uploads/"+username+"_"+datetime.datetime.now().strftime("%m-%d-%y_%H-%M-%S")
