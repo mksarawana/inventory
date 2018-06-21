@@ -16,9 +16,9 @@ import platform
 import time
 import re
 
-users_list = ['cdknoc', 'adp']
-default_router_password = 'cDEkay0n3!'
-default_enable_password = '$Dwhansh0T'
+users_list = []
+default_router_password = ''
+default_enable_password = ''
 remarks = []
 
 username = sys.argv[2]
