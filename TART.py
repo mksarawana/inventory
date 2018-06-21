@@ -9,8 +9,8 @@ import time
 import sys
 
 now = datetime.datetime.now()
-user = "adpnoc"
-password = "r0adbl0ck"
+user = ""
+password = ""
 #save="/Users/kaliapps/Desktop/My Folder/New folder/failover/Output_files/actual_fo"
 a_no=[]
 b_yes=[]
