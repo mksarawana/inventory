@@ -20,9 +20,9 @@ import glob
 import re
 
 
-users_list = ['cdknoc']
-default_router_password = 'l0nGl1vv3'
-default_enable_password = 'C0mMAnd11Ne'
+users_list = []
+default_router_password = ''
+default_enable_password = ''
 remarks = []
 output_file_name = ""
 vrf_name = ""
