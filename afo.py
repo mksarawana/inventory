@@ -16,9 +16,9 @@ import ipaddress
 import netaddr
 from netaddr import *
 
-users_list = ['adpnoc', 'adp']
-default_router_password = 'r0adbl0ck'
-default_enable_password = 'keep0ut'
+users_list = []
+default_router_password = ''
+default_enable_password = ''
 rvname = ""
 #save_file_path = '/home/sarava/failover/'
 primary_ip = []
