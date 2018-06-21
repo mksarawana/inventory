@@ -20,9 +20,9 @@ import glob
 import re
 
 
-users_list = ['cdknoc', 'adp']
-default_router_password = 'vEtEy01fun!'
-default_enable_password = 'har2$tayN'
+users_list = []
+default_router_password = ''
+default_enable_password = ''
 remarks = []
 
 dict_routername=  { "ORD1-ACCESSR15" : "100.76.255.120",   "ORD1-ACCESSR16" : "100.76.255.119",
